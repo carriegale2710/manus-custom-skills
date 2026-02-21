@@ -1,0 +1,77 @@
+{
+  "name": "market-research-report-generator",
+  "version": "1.0.0",
+  "title": "Market Research Report Generator",
+  "description": "Generate comprehensive, data-driven market research reports with SWOT analysis, competitor gap analysis, PDF documentation, and interactive web dashboards. Ideal for validating business ideas, competitive analysis, investor pitch decks, and founder-market fit assessment.",
+  "author": "Manus AI",
+  "created": "2026-02-21",
+  "tags": [
+    "market-research",
+    "business-validation",
+    "data-analysis",
+    "report-generation",
+    "web-dashboard",
+    "pdf-reports",
+    "competitive-analysis",
+    "swot-analysis",
+    "startup-ideas",
+    "founder-fit"
+  ],
+  "use_cases": [
+    "Validating 5-15 business ideas before building",
+    "Ranking opportunities by weighted criteria",
+    "Creating investor pitch decks",
+    "Competitive analysis and market sizing",
+    "Product strategy and roadmapping",
+    "Founder-market fit assessment",
+    "Team alignment on product decisions"
+  ],
+  "inputs": [
+    "Problem space definition",
+    "Target founder profile",
+    "Success metrics and revenue targets",
+    "5-15 business ideas or product concepts",
+    "Evaluation criteria (with weights)"
+  ],
+  "outputs": [
+    "Ranked list of ideas with composite opportunity scores",
+    "SWOT analysis for each idea",
+    "Competitor gap analysis",
+    "10 publication-ready charts (PNG)",
+    "Professional PDF report (15-25 pages)",
+    "Interactive React dashboard with Recharts visualizations",
+    "Revenue projections and market growth trends"
+  ],
+  "workflow_phases": [
+    "Define Research Scope",
+    "Research & Gather Data",
+    "Analyze & Rank Ideas",
+    "Generate Visualizations",
+    "Compile PDF Report",
+    "Build Interactive Dashboard"
+  ],
+  "tools_required": [
+    "Python (matplotlib, seaborn, plotly, fpdf2)",
+    "React 19 + TypeScript",
+    "Recharts (for interactive charts)",
+    "Tailwind CSS 4",
+    "Framer Motion (for animations)",
+    "manus-md-to-pdf (for PDF conversion)"
+  ],
+  "estimated_time": "40-60 hours for complete report (research + analysis + dashboard)",
+  "difficulty": "Advanced",
+  "prerequisites": [
+    "Familiarity with market research concepts",
+    "Basic data analysis skills",
+    "React development experience (for dashboard)",
+    "Understanding of SWOT and competitive analysis"
+  ],
+  "related_skills": [],
+  "changelog": [
+    {
+      "version": "1.0.0",
+      "date": "2026-02-21",
+      "changes": "Initial release with full 6-phase workflow, templates, and best practices"
+    }
+  ]
+}
